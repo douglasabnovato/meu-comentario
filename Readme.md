@@ -8,4 +8,7 @@ Referências
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/)<br/>
 - [VueJS](https://br.vuejs.org/)<br/>
 
+De
+- [Programador a Bordo](https://www.youtube.com/watch?v=cSa-SMVMGsE)
+
 > @douglasabnovato
