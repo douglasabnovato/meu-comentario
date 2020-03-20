@@ -43,21 +43,17 @@
                 `,
                 data(){
                     return{
-                        comments:[
-                            {
-                                name: 'Bill Gates',
-                                message: 'Microsoft is better than Apple.'
-                            }
-                        ],
+                        comments:[],
                         name:'',
                         message:''
                     }
                 },
                 methods:{
                     addComment(){
-                        console.log("Chamado");
-                        console.log(this.name);
-                        console.log(this.message);
+                        this.comments.push({
+                            name: this.name,
+                            message: this.message
+                        });
                     }
                 }
             })            
