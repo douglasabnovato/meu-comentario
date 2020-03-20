@@ -1,10 +1,11 @@
 Meu Comentário
-- um sistema de comentários
+- Um sistema de comentários
 - VueJS
 - Single Page Application
-- frontend web<br/>
-Referências<br/>
-[Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/)<br/>
-[VueJS](https://br.vuejs.org/)<br/>
+- Frontend web<br/>
+
+Referências
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/)<br/>
+- [VueJS](https://br.vuejs.org/)<br/>
 
 > @douglasabnovato
