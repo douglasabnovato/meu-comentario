@@ -30,11 +30,11 @@
                             <hr/>
                         </div>
                         <div class="list-group">
-                            <div class="list-group-item" v-for="comment in comments">
+                            <div class="list-group-item" v-for="(comment, index) in comments">
                                 <span class="comment_author">Autor: <strong>{{comment.name}}</strong></span>
                                 <p>{{comment.message}}</p>
                                 <div>
-                                    <a href="#" title="Excluir">Excluir</a>
+                                    <a href="#" v-on:click.prevent="removeComment(index)" title="Excluir">Excluir</a>
                                 </div>
                             </div>
                         </div>
@@ -61,6 +61,9 @@
 
                         this.name = '',
                         this.message = ''
+                    },
+                    removeComment(index){
+                        this.comments.splice(index, 1);
                     }
                 }
             })            
