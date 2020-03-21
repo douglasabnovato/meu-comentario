@@ -4,7 +4,8 @@
         <hr/>   
         <FormTodo v-on:add-todo="addComment"></FormTodo> 
         <div class="list-group">
-            <div class="list-group-item" v-for="(comment, index) in allComments">
+            <p v-if="comments.length <= 0">Sem Comentários...</p>
+            <div class="list-group-item" v-for="(comment, index) in allComments" v-bind:key="index">
                 <span class="comment__author">Autor: <strong>{{ comment.name }}</strong></span>
                 <p>{{ comment.message }}</p>
                 <div>
@@ -28,7 +29,7 @@
         }
     },
     methods:{ 
-        addComment(){
+        addComment(comment){
             this.comments.push(comment);
         },            
         removeComment(index){
