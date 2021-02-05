@@ -11,6 +11,7 @@
 
 - Um sistema de comentários
 - Single Page Application em VueJS
+- Também está no link https://meu-comentario.douglasabnovato.vercel.app/
 
 #### Tecnologias/ Ferramentas/ Bibliotecas
 
